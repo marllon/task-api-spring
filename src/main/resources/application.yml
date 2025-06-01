@@ -6,6 +6,5 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
-
-
+gcp:
+  project-id: SEU_PROJECT_ID

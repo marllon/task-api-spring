@@ -7,3 +7,18 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  cloud:
+    gcp:
+      project-id: ${GCP_PROJECT_ID}
+      credentials:
+        location: classpath:credentials.json
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    com.marllon.task_api: DEBUG
+secret:
+  jwt:
+    name: jwtSecret
+    version: latest
+
