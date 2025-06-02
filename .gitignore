@@ -35,3 +35,4 @@ build/
 
 /resources/.env
 .env
+/resources/credentials.json
